@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Andrew Cho</title>
+    <title>Difficulty Adjusted 3-Point Percentage</title>
 
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
 
@@ -27,7 +27,7 @@
 
   </head>
 
-  <body id="page-top">
+  <body id="posts">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -65,13 +65,10 @@
             <sh class="post-subheader">In search of a better 3-point shooting metric for our trigger happy NBA.</sh>
             <hr width="100%">
             <p>
-              A few months ago, I came across <a href="https://www.uninterrupted.com/podcasts/1FeGpBvF7WcI6Ac2uyg2qo/road-trippin">"Road Trippin': Richard vs. Channing"</a>, a podcast hosted by NBA players, Richard Jefferson & Channing Frye. Naturally, I proceeded to binge-listen to the entire series throughout the next work week. In one particular episode, Kyle Korver, a well-respected 3-point shooter, comes on to the pod. While the group discusses a whole host of topics, one particular topic that stood out to me was that of degrees of difficulty for 3-point shots.
+              A few months ago, I came across <a href="https://www.uninterrupted.com/podcasts/1FeGpBvF7WcI6Ac2uyg2qo/road-trippin">Road Trippin': Richard vs. Channing</a>, a podcast hosted by NBA players, Richard Jefferson & Channing Frye. Naturally, I proceeded to binge-listen to the entire series throughout the work week. In one particular episode, Kyle Korver, a well-respected 3-point shooter, comes on to the pod. While the group discusses a whole host of topics, one topic that stood out to me was that of shot degree of difficulty.
             </p>
             <p>
-              RJ, Channing, and Kyle discuss how Channing would never be able to take the same three pointers that Kyle regularly takes. Kyle often takes threes as he's sprinting off a screen, while Channing usually reserves his shot for wide open, corner threes. The two types of shots are entirely different, yet the most frequently referenced 3-point metrics in today's NBA treat them as the same shot.
-            </p>
-            <p>
-              As the NBA has evolved to a more 3-point heavy league, the differences in shot difficulty have become more apparent. Let's take the Houston Rockets as an example. James Harden, the focal point of the offense, is unafraid to sling highly contested, step-back shots over 30 feet from the basket. While he has the skill to pull this off regularly, the rest of his teammates do not. Many of the other shooters on Houston's team will instead only pull the trigger when James Harden, Chris Paul, or a screen and roll by Clint Capela, draws defensive attention, and leaves the shooter open for a corner or short catch-and-shoot 3. Eric Gordon, Ryan Anderson, PJ Tucker, Trevor Ariza, and Luc Mbah a Moute all fit this mold to varying degrees.
+              RJ, Channing, and Kyle discuss how Channing would never be able to take the same three pointers that Kyle regularly takes. Kyle often shoots threes as he's <a href="https://www.youtube.com/watch?v=9ILyHuwq_-U&t=42s">sprinting off a screen</a>, while Channing usually limits his shot selection to wide open, corner threes. The two shots are entirely different, yet the most frequently referenced 3-point metrics in today's NBA treat them as the same shot.
             </p>
             <hr width="75%">
             <!-- Tableau list export of top 15 3P% -->
@@ -87,50 +84,50 @@
               <tbody>
                 <tr>
                   <td>Collison, Darren</td>
-                  <td>46.7%</td>
+                  <td>46.7</td>
                 </tr>
                 <tr>
                   <td>Bullock, Reggie</td>
-                  <td>45.0%</td>
+                  <td>45.0</td>
                 </tr>
                 <tr>
                   <td>Korver, Kyle</td>
-                  <td>44.8%</td>
+                  <td>44.8</td>
                 </tr>
                 <tr>
                   <td>Porter Jr., Otto</td>
-                  <td>44.4%</td>
+                  <td>44.4</td>
                 </tr>
                 <tr>
                   <td>Tolliver, Anthony</td>
-                  <td>44.3%</td>
+                  <td>44.3</td>
                 </tr>
                 <tr>
                   <td>Hield, Buddy</td>
-                  <td>44.2%</td>
+                  <td>44.2</td>
                 </tr>
                 <tr>
                   <td>Thompson, Klay</td>
-                  <td>44.0%</td>
+                  <td>44.0</td>
                 </tr>
                 <tr>
                   <td>Tatum, Jayson</td>
-                  <td>43.8%</td>
+                  <td>43.8</td>
                 </tr>
                 <tr>
                   <td>Ingles, Joe</td>
-                  <td>43.8%</td>
+                  <td>43.8</td>
                 </tr>
                 <tr>
                   <td>Augustin, D.J.</td>
-                  <td>43.0%</td>
+                  <td>43.0</td>
                 </tr>
               </tbody>
             </table>
 
             <hr width="75%">
             <p>
-              Ah - the good old 3-Point Percentage. 3-Point shots made, divided by 3-Point shots attempted. A highly sophisticated metric that treats a 22-foot corner three the same as a full court heave at the end of a quarter. Obviously, this does not pass the eye test. We see some widely respected shooters like Kyle Korver and Klay Thompson among the leaders, but few people would consider Darren Collison or Reggie Bullock among the best 3-point shooters in the NBA. To accomodate the limitations of this metric, analysts generally resort to bringing 3-point attempts into the picture in an attempt to get a more acceptable view.
+              Ah - the good old 3-point percentage. 3-point shots made, divided by 3-point shots attempted. A highly sophisticated metric that hasn't evolved at all since it's inception. Obviously, this does not pass the eye test. We see some respected shooters like Kyle Korver and Klay Thompson among the leaders, but few people would consider Darren Collison or Reggie Bullock among the best 3-point shooters in the NBA. To accomodate the limitations of this metric, analysts generally resort to bringing 3-point attempts into the picture in an effort to get a more representative view.
             </p>
             <hr width="75%">
             <!-- Tableau scatter plot export of 3-point attempts on x-axis and 3P% on y-axis -->
@@ -140,11 +137,11 @@
 
             <hr width="75%">
             <p>
-              This looks slightly better. We see players we typically associate with elite 3-point shooting in the top right, while the poorer 3-point shooters litter the bottom left. Bringing in the number of 3-point attempts reveals the true story about players like Darren Collison and Jayson Tatum - shooters who take fewer than a third of the threes that Steph Curry takes. However, it still leaves much to be desired. Kevin Durant and LeBron James seem underrated, while E'Twan Moore and Wesley Matthews look overrated.
+              Bringin in 3PA paints a much better picture. We see players we typically associate with elite 3-point shooting in the top right, while the poorer 3-point shooters litter the bottom left. Bringing in the number of 3-point attempts reveals a lot about players like Darren Collison and Jayson Tatum - shooters who take fewer than a third of the threes that Steph Curry takes. However, it still leaves much to be desired. For example, Kevin Durant and LeBron James seem way underrated.
             </p>
 
             <p>
-              The problem is quite simple. Shot difficulty is still unaccounted for. A 22-foot shot has a much different rate of success than a 34-foot shot. A catch-and-shoot three assisted by a teammate is a lot easier to make than creating your own shot and pulling up for a three. And in case you weren't aware, an uncontested three is easier to make than a contested one.
+              The problem is quite simple. Shot difficulty is unaccounted for. As RJ, Channing, and Kyle touch on, a 22-foot shot has a much different rate of success than a 34-foot shot. A catch-and-shoot three assisted by a teammate is easier to make than a pull up three you create on your own. And in case you weren't aware, an uncontested three is easier to make than a contested one. Not all threes are the same, and the current Houston Rockets exemplify this perfectly. James Harden, the focal point of the offense, is very willing to sling highly contested, step-back shots from over 30 feet from the basket. On the other hand, players like PJ Tucker, Luc Mbah a Moute, and Trevor Ariza pretty much only take uncontested, short, catch-and-shoot threes's that are created when defensive attention is diverted.
             </p>
 
             <hr width="75%">
@@ -152,69 +149,71 @@
 
             <table class="table table-striped table-bordered table-condensed">
               <thead>
-                <h5>2017-2018 Regular Season League Average 3-Point % by Shot Type</h5>
+                <h5>2017-2018 Regular Season League Average 3-Point %</h5>
                 <tr>
                   <th>Shot Type</th>
-                  <th>3-Point Percentage</th>
+                  <th>3-Point %</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>22-24 ft.</td>
-                  <td>30.8%</td>
+                  <td>30.8</td>
                 </tr>
                 <tr>
                   <td>25-34 ft.</td>
-                  <td>18.1%</td>
+                  <td>18.1</td>
                 </tr>
                 <tr>
                   <td>Catch-and-shoot</td>
-                  <td>32.9%</td>
+                  <td>32.9</td>
                 </tr>
                 <tr>
                   <td>Pull Up</td>
-                  <td>26.9%</td>
+                  <td>26.9</td>
                 </tr>
                 <tr>
                   <td>Uncontested</td>
-                  <td>32.1%</td>
+                  <td>32.1</td>
                 </tr>
                 <tr>
                   <td>Contested</td>
-                  <td>22.5%</td>
+                  <td>22.5</td>
                 </tr>
               </tbody>
             </table>
 
             <hr width="75%">
             <p>
-              Thanks to data available at <a href="http://stats.nba.com">stats.nba.com</a>, I sought to create a metric that measures 3-Point % while taking into account the degree of difficulty of the shots. Using Effective Field Goal Percentage (eFG%) as a basis, I created the following formula for Difficulty Adjusted 3-Point Field Goal Percentage (da3FG%).
+              Using data sourced from <a href="http://stats.nba.com">stats.nba.com</a>, I created a metric that incorporates shot difficulty into the classic 3-point %, which I've decided to call Difficulty Adjusted 3-Point Field Goal Percentage (da3FG%). The formula is below:
             </p>
-            <p>
-            da3FG% =
-            ((1/3) * ((Short_3PM + (MediumToLong_3PM * MediumToLong_multiplier)) / ShotDistance_3PA))
-            + ((1/3) * ((CatchAndShoot_3PM + (PullUp_3PM * PullUp_multiplier)) / ShotType_3PA))
-            + ((1/3) * ((UnContested_3PM + (Contested_3PM * Contested_multiplier)) / DefenderDistance_3PA))
-            </p>
+            <table class="table table-striped table-bordered table-condensed">
+              <td>
+                da3FG% =
+                ((1/3) * ((Short_3PM + (MediumToLong_3PM * MediumToLong_multiplier)) / ShotDistance_3PA))
+                + ((1/3) * ((CatchAndShoot_3PM + (PullUp_3PM * PullUp_multiplier)) / ShotType_3PA))
+                + ((1/3) * ((UnContested_3PM + (Contested_3PM * Contested_multiplier)) / DefenderDistance_3PA))
+              </td>
+            </table>
             <p>
             To briefly explain, this formula classifies each 3-pointer with 3 (what a coincidence!) criteria.
             <ol>
               <li>
                 <p>Shot Distance</p>
                 <p>
-                Shot difficulty gets more difficult, the further the shot is taken from the basket. Short 3's are those taken from 22-24 feet, while medium to long 3's are those taken from 25-34 feet. To account for the increase in difficulty, a multiplier is used. This multiplier is simply the league average 3-Point % for short 3's, divided by the league average 3-Point % for medium to long 3's.
+                Shot difficulty gets more difficult the further the shot is taken from the basket. Short 3's are those taken from 22-24 feet, while medium to long 3's are those taken from 25-34 feet. To account for the increase in difficulty, a multiplier is used. This multiplier is simply the league average 3-Point % for short 3's, divided by the league average 3-Point % for medium to long 3's.
                 </p>
               </li>
               <li>
                 <p>Shot Type</p>
                 <p>
-                Pull up shots are more difficult than those assisted with a pass. The multiplier is simply the league average 3-Point % for catch-and-shoot 3's, divided by the league average 3-Point % for pull up 3's.
+                Pull up shots are more difficult to hit than those assisted with a pass. The multiplier is the league average 3-Point % for catch-and-shoot 3's, divided by the league average 3-Point % for pull up 3's.
                 </p>
               </li>
               <li>
                 <p>Defender Distance</p>
                 <p>
-                Shots are more difficult to make when they are contested vs. uncontested. The multiplier is simply the league average 3-Point % for uncontested 3's divided by the league average 3-Point % for contested 3's.
+                Shots are more difficult to make when they are contested vs. uncontested. The multiplier is the league average 3-Point % for uncontested 3's divided by the league average 3-Point % for contested 3's.
                 </p>
               </li>
             </ol>
@@ -233,50 +232,50 @@
               <tbody>
                 <tr>
                   <td>Collison, Darren</td>
-                  <td>55.2%</td>
+                  <td>55.2</td>
                 </tr>
                 <tr>
                   <td>Korver, Kyle</td>
-                  <td>52.5%</td>
+                  <td>52.5</td>
                 </tr>
                 <tr>
                   <td>Durant, Kevin</td>
-                  <td>52.4%</td>
+                  <td>52.4</td>
                 </tr>
                 <tr>
                   <td>Curry, Stephen</td>
-                  <td>52.4%</td>
+                  <td>52.4</td>
                 </tr>
                 <tr>
                   <td>Bullock, Reggie</td>
-                  <td>52.4%</td>
+                  <td>52.4</td>
                 </tr>
                 <tr>
                   <td>Augustin, D.J.</td>
-                  <td>52.0%</td>
+                  <td>52.0</td>
                 </tr>
                 <tr>
                   <td>Porter Jr., Otto</td>
-                  <td>52.0%</td>
+                  <td>52.0</td>
                 </tr>
                 <tr>
                   <td>Thompson, Klay</td>
-                  <td>52.0%</td>
+                  <td>52.0</td>
                 </tr>
                 <tr>
                   <td>Tolliver, Anthony</td>
-                  <td>51.3%</td>
+                  <td>51.3</td>
                 </tr>
                 <tr>
                   <td>Irving, Kyrie</td>
-                  <td>51.3%</td>
+                  <td>51.3</td>
                 </tr>
               </tbody>
             </table>
 
             <hr width="75%">
             <p>
-              Surprisingly, the list for the most part looks the same. However, the three additions to the top ten are all widely accepted as elite 3-point shooters: Kevin Durant, Steph Curry, and Kyrie Irving. The three players kicked out of the top ten are: Joe Ingles, Jayson Tatum, and Buddy Hield. To get some more value out of this analysis, lets bring back in 3-point attempts, along with the difference between the Difficulty Adjusted 3-Point % and standard 3-Point %.
+              Surprisingly, the list looks very similar to our original list using 3-point %. However, the three additions to the top ten are all widely regarded as elite 3-point shooters: Kevin Durant, Steph Curry, and Kyrie Irving. The three players kicked out of the top ten are: Joe Ingles, Jayson Tatum, and Buddy Hield. To get additional value out of this analysis, lets bring back in 3-point attempts, along with the difference between the Difficulty Adjusted 3-Point % and standard 3-Point %.
             </p>
             <hr width="75%">
             <!-- Tableau scatter plot export of 3-point attempts on x-axis and da3FG% on y-axis -->
@@ -285,13 +284,13 @@
 
             <hr width="75%">
             <p>
-              Because the changes are so subtle, the color grain really helps to guide our focus. The darker green players take the most difficult threes, while the darker red players take the easiest threes. Kyrie Irving, Kevin Durant, and James Harden take the most difficult threes, and thus are more fairly rewarded with da3FG%. Revisiting the Houston Rockets, you can see that James Harden, Eric Gordon, and Ryan Anderson take fairly difficult shots (apologies to Eric and Ryan for grouping them with the less skilled shooters earlier). PJ Tucker, Luc Mbah a Moute, and Trevor Ariza all take shots with a low degree of difficulty.
+              The color spectrum denotes the ability of players to hit difficult 3-pointers. The darker the green, the better, and the darker the red, the worse. Comparing this scatterplot to the previous one, a lot of the changes are subtle, but revealing. A few players with notable positive movements are: Kevin Durant, Damian Lillard, and Kyrie Irving. A pair of players with significant negative movements are: Houston's own, PJ Tucker and Trevor Ariza. When looking at regular 3-point %, Tucker and Ariza look like pretty good 3-point shooters, but difficulty adjusted 3-point %, reveals that they are below average.
             </p>
             <p>
-              Link to project files <a href"https://github.com/mrandrewcho/Posts/tree/master/3's">here</a>.
+              While the difficulty adjusted 3-point % is a step in the right direction, there is still a lot of room for improvement. Kyle Korver's off screen threes for example, register as the easiest type of shot with the current methodology. Additional data, such as pass quality or player velocity at shot release, can incorporate more degree of difficulty attributes.
             </p>
             <p>
-              -Andrew
+              Link to project files <a href="https://github.com/mrandrewcho/Posts/tree/master/3's">here</a>.
             </p>
           </div>
         </div>
