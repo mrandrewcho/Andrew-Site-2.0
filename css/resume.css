@@ -152,3 +152,7 @@ hr{
 #posts p{
   font-size: 1.1rem;
 }
+
+#streamable {
+  margin-bottom:1.5rem!important;
+}
