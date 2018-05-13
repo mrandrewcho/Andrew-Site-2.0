@@ -149,10 +149,12 @@ hr{
   font-weight:400;
 }
 
-#posts p{
-  font-size: 1.1rem;
+.post-date {
+  color:#7d7d7d;
+  font-size:1em;
+  font-weight:400;
 }
 
-#streamable {
-  margin-bottom:1.5rem!important;
+#posts p{
+  font-size: 1.1rem;
 }
