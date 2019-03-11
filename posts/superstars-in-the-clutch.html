@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120372919-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-120372919-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Superstars in the Clutch</title>
+
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/resume.css" rel="stylesheet">
+
+  </head>
+
+  <body id="posts">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="../index.html#about">
+        <span class="d-block d-lg-none">Andrew Cho</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="../index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="../index.html#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="../index.html#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="../index.html#posts">Posts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h2 class="post-header">Superstars in the Clutch</h2>
+            <sh class="post-subheader">Taking a look at the effectiveness of hero ball in the last posession of NBA games.</sh>
+            <hr width="100%">
+            <p>
+              When an NBA team has a clear cut star on their team, more often than not, their last posession turns into an isolation posession where the star takes the shot. 
+            </p>
+            <hr width="75%">
+            <!-- Tableau list export of top 15 3P% -->
+
+            <table class="table table-striped table-bordered table-condensed">
+              <thead>
+                <h5>2017-2018 Regular Season 3-Point % Leaders</h5>
+                <tr>
+                  <th>Player</th>
+                  <th>3-Point %</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Collison, Darren</td>
+                  <td>46.7</td>
+                </tr>
+                <tr>
+                  <td>Bullock, Reggie</td>
+                  <td>45.0</td>
+                </tr>
+                <tr>
+                  <td>Korver, Kyle</td>
+                  <td>44.8</td>
+                </tr>
+                <tr>
+                  <td>Porter Jr., Otto</td>
+                  <td>44.4</td>
+                </tr>
+                <tr>
+                  <td>Tolliver, Anthony</td>
+                  <td>44.3</td>
+                </tr>
+                <tr>
+                  <td>Hield, Buddy</td>
+                  <td>44.2</td>
+                </tr>
+                <tr>
+                  <td>Thompson, Klay</td>
+                  <td>44.0</td>
+                </tr>
+                <tr>
+                  <td>Tatum, Jayson</td>
+                  <td>43.8</td>
+                </tr>
+                <tr>
+                  <td>Ingles, Joe</td>
+                  <td>43.8</td>
+                </tr>
+                <tr>
+                  <td>Augustin, D.J.</td>
+                  <td>43.0</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <hr width="75%">
+            <p>
+              The classic 3-point %. 3-point shots made, divided by 3-point shots attempted. A rudimentary metric that hasn't evolved at all since it's inception. Obviously, this does not pass the eye test. We see some respected shooters like Kyle Korver and Klay Thompson among the leaders, but few people would consider Darren Collison or Reggie Bullock among the best 3-point shooters in the NBA. To accomodate the limitations of this metric, analysts generally resort to bringing 3-point attempts into the picture in an effort to produce a more representative view.
+            </p>
+            <hr width="75%">
+            <!-- Tableau scatter plot export of 3-point attempts on x-axis and 3P% on y-axis -->
+
+            <div class='tableauPlaceholder' id='viz1525649867060' style='position: relative'><noscript><a href='http:&#47;&#47;andrew-cho.com&#47;posts&#47;difficulty-adjusted-3-point-percentage.html'><img alt='3-Point % and 3-Point Attempts ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3-&#47;3-Pointand3-PointAttempts&#47;3Px3PA&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='3-Pointand3-PointAttempts&#47;3Px3PA' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3-&#47;3-Pointand3-PointAttempts&#47;3Px3PA&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1525649867060');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+            <hr width="75%">
+            <p>
+              Introducing 3PA paints a much better picture. We see players we typically associate with elite 3-point shooting in the top right, while the poorer 3-point shooters litter the bottom left. Bringing in the number of 3-point attempts reveals a lot about players like Darren Collison and Jayson Tatum - shooters who take fewer than a third of the threes that Steph Curry takes. However, it still leaves much to be desired. For example, Kevin Durant and LeBron James seem underrated.
+            </p>
+
+            <p>
+              The problem is simple. Degree of difficulty is left out of the equation. As RJ, Channing, and Kyle touch on, a 22-foot shot has a much different rate of success than a 34-foot shot. A catch-and-shoot three assisted by a teammate is easier to make than a pull up three you create on your own. And in case you weren't aware, an uncontested three is easier to make than a contested one. Not all threes are the same, and the current Houston Rockets exemplify this perfectly. James Harden, the focal point of the offense, is very willing to sling highly contested, step-back shots from over 30 feet from the basket. On the other hand, players like PJ Tucker, Luc Mbah a Moute, and Trevor Ariza pretty much only take uncontested, short, catch-and-shoot threes's that are created when defensive attention is diverted.
+            </p>
+
+            <hr width="75%">
+            <!-- Tableau table of league average 3-point shots: Distance, Contested/Uncontested, Pullup/CandS -->
+
+            <table class="table table-striped table-bordered table-condensed">
+              <thead>
+                <h5>2017-2018 Regular Season League Average 3-Point %</h5>
+                <tr>
+                  <th>Shot Type</th>
+                  <th>3-Point %</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>22-24 ft.</td>
+                  <td>30.8</td>
+                </tr>
+                <tr>
+                  <td>25-34 ft.</td>
+                  <td>18.1</td>
+                </tr>
+                <tr>
+                  <td>Catch-and-shoot</td>
+                  <td>32.9</td>
+                </tr>
+                <tr>
+                  <td>Pull Up</td>
+                  <td>26.9</td>
+                </tr>
+                <tr>
+                  <td>Uncontested</td>
+                  <td>32.1</td>
+                </tr>
+                <tr>
+                  <td>Contested</td>
+                  <td>22.5</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <hr width="75%">
+            <p>
+              Using data sourced from <a href="http://stats.nba.com">stats.nba.com</a>, I've established a metric that incorporates shot difficulty into the classic 3-point %, which I've decided to call Difficulty Adjusted 3-Point Field Goal Percentage (da3FG%). The formula is below:
+            </p>
+            <table class="table table-striped table-bordered table-condensed">
+              <td>
+                da3FG% =
+                ((1/3) * ((Short_3PM + (MediumToLong_3PM * MediumToLong_multiplier)) / ShotDistance_3PA))
+                + ((1/3) * ((CatchAndShoot_3PM + (PullUp_3PM * PullUp_multiplier)) / ShotType_3PA))
+                + ((1/3) * ((UnContested_3PM + (Contested_3PM * Contested_multiplier)) / DefenderDistance_3PA))
+              </td>
+            </table>
+            <p>
+            To briefly explain, this formula classifies each 3-pointer with 3 criteria.
+            <ol>
+              <li>
+                <p>Shot Distance</p>
+                <p>
+                Shot difficulty gets more difficult the further the shot is taken from the basket. Short 3's are those taken from 22-24 feet, while medium to long 3's are those taken from 25-34 feet. To account for the increase in difficulty, a multiplier is used. This multiplier is simply the league average 3-Point % for short 3's, divided by the league average 3-Point % for medium to long 3's.
+                </p>
+              </li>
+              <li>
+                <p>Shot Type</p>
+                <p>
+                Pull up shots are more difficult to hit than those assisted with a pass. The multiplier is the league average 3-Point % for catch-and-shoot 3's, divided by the league average 3-Point % for pull up 3's.
+                </p>
+              </li>
+              <li>
+                <p>Defender Distance</p>
+                <p>
+                Shots are more difficult to make when they are contested vs. uncontested. The multiplier is the league average 3-Point % for uncontested 3's divided by the league average 3-Point % for contested 3's.
+                </p>
+              </li>
+            </ol>
+            </p>
+            <hr width="75%">
+            <!-- Tableau list export of top 15 da3FG% -->
+
+            <table class="table table-striped table-bordered table-condensed">
+              <thead>
+                <h5>2017-2018 Regular Season Difficulty Adjusted 3-Point % Leaders</h5>
+                <tr>
+                  <th>Player</th>
+                  <th>Difficulty Adjusted 3-Point %</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Collison, Darren</td>
+                  <td>55.2</td>
+                </tr>
+                <tr>
+                  <td>Korver, Kyle</td>
+                  <td>52.5</td>
+                </tr>
+                <tr>
+                  <td>Durant, Kevin</td>
+                  <td>52.4</td>
+                </tr>
+                <tr>
+                  <td>Curry, Stephen</td>
+                  <td>52.4</td>
+                </tr>
+                <tr>
+                  <td>Bullock, Reggie</td>
+                  <td>52.4</td>
+                </tr>
+                <tr>
+                  <td>Augustin, D.J.</td>
+                  <td>52.0</td>
+                </tr>
+                <tr>
+                  <td>Porter Jr., Otto</td>
+                  <td>52.0</td>
+                </tr>
+                <tr>
+                  <td>Thompson, Klay</td>
+                  <td>52.0</td>
+                </tr>
+                <tr>
+                  <td>Tolliver, Anthony</td>
+                  <td>51.3</td>
+                </tr>
+                <tr>
+                  <td>Irving, Kyrie</td>
+                  <td>51.3</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <hr width="75%">
+            <p>
+              Surprisingly, the list looks very similar to our original list using 3-point %. However, the three additions to the top ten are all widely regarded as elite 3-point shooters: Kevin Durant, Steph Curry, and Kyrie Irving. The three players kicked out of the top ten are: Joe Ingles, Jayson Tatum, and Buddy Hield. To get additional value out of this analysis, lets bring back 3-point attempts into the picture.
+            </p>
+            <hr width="75%">
+            <!-- Tableau scatter plot export of 3-point attempts on x-axis and da3FG% on y-axis -->
+
+            <div class='tableauPlaceholder' id='viz1525649977314' style='position: relative'><noscript><a href='#'><img alt='Difficulty Adjusted 3-Point % and 3-Point Attempts ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;DifficultyAdjusted3-Pointand3-PointAttempts&#47;da3Px3PA&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DifficultyAdjusted3-Pointand3-PointAttempts&#47;da3Px3PA' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;DifficultyAdjusted3-Pointand3-PointAttempts&#47;da3Px3PA&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1525649977314');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+            <hr width="75%">
+
+            <p>
+              The color spectrum denotes the ability of players to hit difficult 3-pointers. The darker the green, the better, and the darker the red, the worse. Comparing this scatterplot to the previous one, the changes are subtle, but revealing. A few players with notable positive movements are: Kevin Durant, Damian Lillard, and Kyrie Irving. A pair of players with significant negative movements are: Houston's own, PJ Tucker and Trevor Ariza. When looking at regular 3-point %, Tucker and Ariza look like pretty good 3-point shooters, but difficulty adjusted 3-point % reveals that they are below average.
+            </p>
+            <p>
+              While the difficulty adjusted 3-point % is a step in the right direction, there's a lot of room for improvement. Kyle Korver's off screen threes for example, register as the easiest type of shot with the current methodology. Additional data, such as pass quality or player velocity at shot release, can incorporate more degree of difficulty attributes, and thus present a more representative metric of 3-point shooting ability.
+            </p>
+
+            <hr width="75%">
+
+            <p>
+              Link to project files <a href="https://github.com/mrandrewcho/Posts/tree/master/3's">here</a>.
+            </p>
+
+            <hr width="100%">
+
+            <script src="//www.powr.io/powr.js?external-type=html"></script>
+            <div class="powr-comments" id="dbceedac_1528657273"></div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>
