@@ -19,9 +19,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: -.02em;
   font-weight: 600;
-  text-transform: uppercase;
   color: #343a40; }
 
 h1 {
@@ -32,9 +32,9 @@ h2 {
   font-size: 3.5rem; }
 
 .subheading {
-  text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', sans-serif;
+  letter-spacing: -.02em;
+  font-family: 'Muli', sans-serif;
   font-size: 1.35rem; }
 
 .list-social-icons a {
