@@ -12,3 +12,4 @@
 .nn{color: #4D00FF; font-weight: bold;}
 .cell, .border-box-sizing, .code_cell, .rendered{margin-bottom: 1rem; max-width:50rem;}
 .output_html, .rendered_html, .output_subarea, .output_execute_result{margin-top: 1rem; max-width:50rem;}
+.svg-container{margin:auto}
